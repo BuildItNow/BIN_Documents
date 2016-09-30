@@ -1,0 +1,48 @@
+<div id="tabBarView" class="bin-page">
+	<style>
+		#tabBarView .oneCard-nav-tab
+		{
+		    position: absolute;
+		    left: 1rem;
+		    right: 1rem;
+		    height: 2rem;
+		}
+		#tabBarView .tab-item{
+		  	float: left;
+		  	width: 25%;
+		  	height: 2rem;
+		  	text-align: center;
+		  	color: black;
+		}
+		#tabBarView .tab-item span{
+		  	display: block;
+		  	height: 2rem;
+		  	line-height: 2rem;
+		  	
+		  	font-size: 0.85rem;
+		}
+
+		#tabBarView .tab-item-active
+		{
+		    display: block;
+		    position: absolute;
+		    left: 0%;
+		    bottom: 0;
+		    width: 25%;
+		    height: 0.25rem;
+		    background: #4ebd59;
+		    transition: all .25s linear;
+		    -webkit-transition: all .25s linear;    
+		}
+	</style>
+	<div id="naviBar" class="bin-page-navi-bar" naviTitle="text:TabBarView"></div>
+	<div class="bin-page-content">
+		<div id="tabBar" class="oneCard-nav-tab">        
+			<div class="tab-item" data-value="main" id="0"><span>首页</span></div>        
+			<div class="tab-item" data-value="attendance" id="1"><span>出勤</span></div>        
+			<div class="tab-item" data-value="clocking" id="2"><span>打卡</span></div>        
+			<div class="tab-item" data-value="consumption" id="3"><span>消费</span></div>        
+			<div id="tabItemActiveLine" class="tab-item-active"></div>      
+		</div>
+	</div>
+</div>

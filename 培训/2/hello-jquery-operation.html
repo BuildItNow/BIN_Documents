@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script src="jquery-2.2.4/dist/jquery.js"></script>
+	</head>
+	<body>
+		<style>
+			.login-button
+			{
+				width:100px;
+				height: 40px;
+				background-color: green;
+			}
+		</style>
+		<div id="login1"></div>
+		<div id="login2"></div>
+		<div id="login3" style="width:100px;height:40px;background-color:blue;color:white"></div>
+		<script>
+			var elem1 = $("#login1");
+			elem1.css(
+			{
+				width:"100px",
+				height:"40px",
+				"background-color":"red"
+			});
+
+			var elem2 = $("#login2");
+			elem2.addClass("login-button");
+
+			var elem3 = $("#login3");
+			elem3.html("Hello DIV");
+		</script>
+	</body>
+</html>

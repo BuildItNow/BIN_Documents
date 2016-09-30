@@ -1,0 +1,10 @@
+{
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "local",
+            "path": "cordova-plugin-test"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

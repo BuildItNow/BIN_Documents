@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script src="jquery-2.2.4/dist/jquery.js"></script>
+	</head>
+	<body>
+		<style>
+			div
+			{
+				width:100px;
+				height: 40px;
+				background-color: red;
+			}
+		</style>
+		<div id="login"></div>
+		<script>
+			var elem = $("#login");
+			elem.on("dblclick", function()
+			{
+				console.log("Login button clicked");
+			});
+		</script>
+	</body>
+</html>

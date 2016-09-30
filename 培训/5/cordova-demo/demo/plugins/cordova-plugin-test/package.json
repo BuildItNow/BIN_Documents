@@ -1,0 +1,24 @@
+{
+    "name": "cordova-plugin-test",
+    "description": "This repo is for remaining backwards compatible with previous versions of Cordova.",
+    "version": "1.0.0",
+    "cordova": {
+        "id": "cordova-plugin-test",
+        "platforms": [
+            "ios"
+        ]
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "ecosystem:phonegap",
+        "cordova-android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=5.0.0"
+        }
+    ],
+    "author": "Yang G",
+    "license": "Apache-2.0"
+}

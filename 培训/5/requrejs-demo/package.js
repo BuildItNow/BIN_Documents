@@ -1,0 +1,1 @@
+define("moduleA",[],function(){var e={};return e.func=function(){console.log("Module A")},e}),define("moduleC.js",["moduleA"],function(){var e={};return e.func=function(){console.log("Module C")},e}),define("moduleB.js",[],function(){var e={};return e.func=function(){console.log("Module B")},e});
