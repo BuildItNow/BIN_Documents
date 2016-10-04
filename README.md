@@ -1,6 +1,9 @@
 # BIN_Documents
 BIN框架开发文档
 
+## [开发示例](https://github.com/BuildItNow/BIN_Tutorials)
+开发系列Tutorials,可通过[在线演示](http://101.200.215.114:8080/apps/tutorials/index.html)进行体验
+
 ## 培训
 培训系列文档
 ### [1 前端开发基础](https://github.com/BuildItNow/BIN_Documents/tree/master/%E5%9F%B9%E8%AE%AD/1)
