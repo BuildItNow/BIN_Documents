@@ -44,7 +44,7 @@ define([], function()
 	Class.constructor = function(options)
 	{
 		console.log("constructor");
-		this.__$super.prototype.constructor.call(this, options);
+		bin.ui.NaviPageView.prototype.constructor.call(this, options);
 	}
 
 	Class.genHTML = function()
@@ -52,7 +52,7 @@ define([], function()
 		console.log("genHTML");
 		this.$html("#loginView")
 
-		this.__$super.prototype.genHTML.call(this);
+		bin.ui.NaviPageView.prototype.genHTML.call(this);
 	}
 
 	Class.posGenHTML = function()
@@ -80,31 +80,31 @@ define([], function()
 		}
 
 
-		this.__$super.prototype.posGenHTML.call(this);
+		bin.ui.NaviPageView.prototype.posGenHTML.call(this);
 	}
 
 	Class.asyncPosGenHTML = function()
 	{
 		console.log("asyncPosGenHTML");
-		this.__$super.prototype.posGenHTML.call(this);
+		bin.ui.NaviPageView.prototype.posGenHTML.call(this);
 	}
 
 	Class.onShow = function()
 	{
 		console.log("onShow");
-		this.__$super.prototype.onShow.call(this);
+		bin.ui.NaviPageView.prototype.onShow.call(this);
 	}
 
 	Class.onHide = function()
 	{
 		console.log("onHide");
-		this.__$super.prototype.onHide.call(this);
+		bin.ui.NaviPageView.prototype.onHide.call(this);
 	}
 
 	Class.onRemove = function()
 	{
 		console.log("onRemove");
-		this.__$super.prototype.onRemove.call(this);
+		bin.ui.NaviPageView.prototype.onRemove.call(this);
 	}
 
 	Class.hudMenuClick = function(e)

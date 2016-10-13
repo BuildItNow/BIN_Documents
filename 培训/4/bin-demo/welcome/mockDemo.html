@@ -1,0 +1,27 @@
+<div id="mockDemo" class="bin-page">
+	<style>
+        #mockDemo .button
+        {
+            position: relative;
+            width: 100%;
+            height: 2rem;
+            line-height: 2rem;
+            text-align: center;
+            color: gray;
+            background-color: #ddd;
+            font-size: 0.7rem;
+            border-bottom:1px solid #fff;
+        }
+	</style>
+	<div id="naviBar" class="bin-page-navi-bar" naviTitle="text:WELCOME TO BIN" naviRight="hide:true">	    
+	</div>
+    <div class="bin-page-content">
+    	<p style="font-size:0.7rem;">本示例展示在BIN中使用本地数据实现无服务器测试，需要在globalConfig中对应runtime版本中配置useNetLocal来开启本地数据功能，本地数据测试需要在bin/config/netLocalConfig中配置对应的API，通过TURN_ON/TURN_OFF来开启/关闭该API的本地测试功能</p>
+    	<div class="button" @click="sendRequest('byData')">点击发送/api/apiByData，使用直接配置</div>
+    	<div class="button" @click="sendRequest('byFunc')">点击发送/api/apiByFunction，使用函数配置</div>
+        <div class="button" @click="sendRequest('byFile')">点击发送/api/apiByFile，使用文件配置</div>
+        <p style="font-size:0.7rem;">请求结果:</p>
+    	<div id="requestResult" style="font-size:0.5rem;">
+            {{requestResult}}
+    	</div>
+</div>
